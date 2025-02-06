@@ -7,7 +7,7 @@ services:
     ports:
       - "8000:8000"
     volumes:
-      - .:/app  # لمزامنة الكود بين الحاوية والمضيف
+      - .:/app 
     environment:
       - DEBUG=True
     command: >
